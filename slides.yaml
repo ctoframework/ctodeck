@@ -1,0 +1,46 @@
+title: CTODeck
+slides:
+  - title: What is CTODeck
+    subtitle: Slide decks from plain text
+    content:
+      - text: A small Python tool that turns a YAML file into a slide deck
+      - text: Present it in the terminal, or export it as ASCII, PNG or SVG
+
+  - title: Why plain text
+    subtitle: Decks should behave like code
+    content:
+      - text: Plain text diffs, reviews and versions well
+      - text: No slide editor, no binary files, no lock-in
+      - text: Easy to generate from scripts or other tools
+
+  - title: The data format
+    subtitle: One YAML mapping
+    content:
+      - text: "A deck has a title and a non-empty list of slides"
+      - text: "Each slide has a title, plus an optional subtitle and content"
+      - text: "Content is a list of items with text, drawn as bullets and wrapped"
+      - text: "The loader rejects missing titles, empty slides and malformed content"
+
+  - title: Output formats
+    subtitle: Choose with --format
+    content:
+      - text: "interactive: full-screen ncurses presentation (default)"
+      - text: "ascii: all slides printed to the terminal or a file"
+      - text: "png: one 1280x720 image per slide"
+      - text: "svg: one vector image per slide"
+
+  - title: Presenting
+    subtitle: Keyboard driven
+    content:
+      - text: "Next slide: right, down, j, n, Space, Enter, PgDn"
+      - text: "Previous slide: left, up, h, k, p, Backspace, PgUp"
+      - text: "First / last: g or Home, G or End. Quit: q or Esc"
+      - text: Falls back to ASCII when stdin or stdout is not a terminal
+
+  - title: Getting started
+    subtitle: Three commands
+    content:
+      - text: "pip install -r requirements.txt"
+      - text: "python ctodeck.py slides.yaml"
+      - text: "python ctodeck.py slides.yaml --format png -o deck"
+      - text: "Run the tests with pytest"

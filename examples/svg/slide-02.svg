@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" font-family="DejaVu Sans, Verdana, sans-serif" height="720" version="1.1" viewBox="0,0,1280,720" width="1280">
+  <defs/>
+  <rect fill="#ffffff" height="720" width="1280" x="0" y="0"/>
+  <line stroke="#2b6cb0" stroke-width="3" x1="80" x2="1200" y1="202.8" y2="202.8"/>
+  <text fill="#111111" font-size="48" font-weight="bold" x="80" y="125.6">Why a framework</text>
+  <text fill="#555555" font-size="28" font-weight="normal" x="80" y="173.0">Engineering leadership needs shared vocabulary</text>
+  <text fill="#2b6cb0" font-size="30" font-weight="normal" x="80" y="271.3">•</text>
+  <text fill="#111111" font-size="30" font-weight="normal" x="116.0" y="271.3">Org charts, roadmaps and decks should come from plain text</text>
+  <text fill="#2b6cb0" font-size="30" font-weight="normal" x="80" y="322.3">•</text>
+  <text fill="#111111" font-size="30" font-weight="normal" x="116.0" y="322.3">Plain text diffs, reviews and versions well</text>
+</svg>

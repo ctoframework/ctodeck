@@ -1,0 +1,19 @@
+┌──────────────────────────────────────────────────────────────────────┐
+│ CTO FRAMEWORK                                                        │
+└──────────────────────────────────────────────────────────────── 1/3 ─┘
+
+┌──────────────────────────────────────────────────────────────────────┐
+│ WHY A FRAMEWORK                                                      │
+│ Engineering leadership needs shared vocabulary                       │
+│                                                                      │
+│ • Org charts, roadmaps and decks should come from plain text         │
+│ • Plain text diffs, reviews and versions well                        │
+└──────────────────────────────────────────────────────────────── 2/3 ─┘
+
+┌──────────────────────────────────────────────────────────────────────┐
+│ PRINCIPLES                                                           │
+│                                                                      │
+│ • Keep the source of truth small and readable                        │
+│ • Render to the terminal first, then to images                       │
+│ • Fail loudly on bad data instead of drawing something misleading    │
+└──────────────────────────────────────────────────────────────── 3/3 ─┘

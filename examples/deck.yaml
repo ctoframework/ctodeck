@@ -1,0 +1,12 @@
+title: CTO Framework
+slides:
+  - title: Why a framework
+    subtitle: Engineering leadership needs shared vocabulary
+    content:
+      - text: Org charts, roadmaps and decks should come from plain text
+      - text: Plain text diffs, reviews and versions well
+  - title: Principles
+    content:
+      - text: Keep the source of truth small and readable
+      - text: Render to the terminal first, then to images
+      - text: Fail loudly on bad data instead of drawing something misleading
